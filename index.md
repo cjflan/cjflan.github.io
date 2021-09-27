@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Connor Flanagan
+description: the man himself
 ---
 
 ### who am i?
