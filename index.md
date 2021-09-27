@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Connor Flanagan
 ---
 
 ### who am i?
