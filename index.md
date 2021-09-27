@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## who am i?
+### who am i?
 
 developer. aerospace engineer. tech enthusiast. outdoorsman.
 
