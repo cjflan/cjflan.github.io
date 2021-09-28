@@ -22,3 +22,5 @@ Projects I'm currently working on:
 Projects on the horizon: 
 * Set up a kubernetes cluster of Raspberry Pi's to self host microservices
 * Set up said microservices
+* Do some big wall climbing
+* Crew for the Everglades Challenge
