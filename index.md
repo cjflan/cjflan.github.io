@@ -14,9 +14,11 @@ Back in May of 2020 I graduated from the [Georgia Instistute of Technology](www.
 
 ### what am i doing now? 
 
-Projects I'm currently working on are: 
-
+Projects I'm currently working on: 
 * Completing this website
-* Setting up a kubernetes cluster of Raspberry Pi's to self host microservices
-* Learn to lead climb and finally send a v5
+* Learn to lead climb and finally send a v5 boulder
 * Train to run the Denver marathon 
+
+Projects I'd like to start: 
+* Set up a kubernetes cluster of Raspberry Pi's to self host microservices
+* Set up said microservices
