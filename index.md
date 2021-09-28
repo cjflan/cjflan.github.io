@@ -4,10 +4,19 @@ title: Connor Flanagan
 description: the man himself
 ---
 
-### who am i?
+### what defines me?
 
-developer. aerospace engineer. tech enthusiast. outdoorsman.
+Developer. Aerospace Engineer. Tech Enthusiast. Outdoorsman.
 
-### what do i do? 
+### what do i do?  
 
-when i'm not at working for [macstadium](macstadium.com) as a technical account manager, i can be found going to edm concerts, rock climbing, or trying to figure out when i'm next going skiing. in may of 2020 i graduated from the [georgia instistute of technology](gatech.edu) with a bs in aerospace engineering.
+Back in May of 2020 I graduated from the [Georgia Instistute of Technology](www.gatech.edu) with a BS in Aerospace Engineering. Since then I've been working for [MacStadium](www.macstadium.com) as a technical account manager. When I'm not at work I can be found going to EDM concerts, rock climbing, or trying to figure out when I'm next going skiing. 
+
+### what am i doing now? 
+
+Some of the projects I'm currently working on are: 
+
+* Completing this website
+* Setting up a kubernetes cluster of Raspberry Pi's to self host microservices
+* Learn to lead climb and finally send a v5
+* Train to run the Denver marathon 
