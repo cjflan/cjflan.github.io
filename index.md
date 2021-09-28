@@ -14,7 +14,7 @@ Back in May of 2020 I graduated from the [Georgia Instistute of Technology](www.
 
 ### what am i doing now? 
 
-Some of the projects I'm currently working on are: 
+Projects I'm currently working on are: 
 
 * Completing this website
 * Setting up a kubernetes cluster of Raspberry Pi's to self host microservices
