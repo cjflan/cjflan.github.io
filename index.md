@@ -24,3 +24,5 @@ Projects on the horizon:
 * Set up said microservices
 * Do some big wall climbing
 * Crew for the Everglades Challenge
+
+To see finished projects check out my [blog](connorjf.io/blog)!
