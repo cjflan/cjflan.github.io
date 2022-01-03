@@ -25,4 +25,4 @@ Projects on the horizon:
 * Do some big wall climbing
 * Crew for the Everglades Challenge
 
-To see finished projects check out my [blog](blog)!
+To see finished projects check out my [blog](blog.md)!
