@@ -15,9 +15,9 @@ Back in May of 2020 I graduated from the [Georgia Instistute of Technology](www.
 ### what am i doing now? 
 
 Projects I'm currently working on: 
-* Completing this website
-* Learn to lead climb and finally send a v5 boulder
+* Learn to lead climb and finally send a v7 boulder
 * Train to run the Denver marathon 
+* Do some ice climbing 
 
 Projects on the horizon: 
 * Set up a kubernetes cluster of Raspberry Pi's to self host microservices
@@ -25,4 +25,4 @@ Projects on the horizon:
 * Do some big wall climbing
 * Crew for the Everglades Challenge
 
-To see finished projects check out my [blog](connorjf.io/blog)!
+To see finished projects check out my [blog](blog)!
