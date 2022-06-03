@@ -15,14 +15,14 @@ Back in May of 2020 I graduated from the [Georgia Instistute of Technology](www.
 ### what am i doing now? 
 
 Projects I'm currently working on: 
-* Learn to lead climb and finally send a v7 boulder
-* Train to run the Denver marathon 
-* Do some ice climbing 
+* Send a v7 boulder and climb 5.13 (in the gym)
+* Train to run the St. George Marathon 
+* Training my dog for better recall
 
 Projects on the horizon: 
 * Set up a kubernetes cluster of Raspberry Pi's to self host microservices
 * Set up said microservices
-* Do some big wall climbing
+* Go climbing at Red River Gorge 
 * Crew for the Everglades Challenge
 
 To see finished projects check out my [blog](blog.md)!
