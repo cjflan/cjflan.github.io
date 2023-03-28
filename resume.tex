@@ -1,0 +1,213 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{changepage}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumePromoSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Connor Flanagan} \\ \vspace{1pt}
+    \small 920.284.7511 $|$ \href{mailto:connorjf@gatech.edu}{\underline{connorjf@gatech.edu}} $|$ 
+    \href{https://linkedin.com/in/cflanagan98}{\underline{linkedin.com/in/cflanagan98}}
+\end{center}
+
+%-----------OBJECTIVE-----------
+\section{Objective}
+
+\begin{adjustwidth}{.15in}{0pt}
+
+I am seeking a software engineering role as a DevOps Engineer or Site Reliability Engineer. I have extensive experience building continuous integration pipelines using Jenkins and GitHub Actions. I have a passion for automation and building systems that create positive impacts on others.
+
+\end{adjustwidth}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {MacStadium}{Atlanta, GA (Remote)}
+    {Senior Sales Engineer}{September 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Partnered with Teradici to expand the Cloud Access product offering from single device to device connections to single pane of glass management and centralized user connections}
+        \resumeItem{Developed benchmarking and QA suite to ensure quality of new Orka versions}
+        \resumeItem{Created Jenkins based continuous integration pipeline to test Google Tensorflow MacOS wheels and push nightly builds to PyPi}
+      \resumeItemListEnd
+      
+    \resumePromoSubheading
+      {Sales Engineer}{August 2021 - September 2022}
+      \resumeItemListStart
+        \resumeItem{Expanded the scope of the sales engineering team by identifying underserved areas in the customer journey, in turn growing the team from two to five members}
+        \resumeItem{Found professional services opportunities with existing customers to worth \$75k ARR}
+        \resumeItem{Developed Orka Python SDK and implemented work flow to automate configuration and testing of PoC environments saving 20 minutes per environment}
+        \resumeItem{Created Docker work flow allowing customers to trial the Orka Jenkins plugin in under 5 minutes}
+      \resumeItemListEnd
+      
+    \resumePromoSubheading
+      {Technical Account Manager}{October 2020 - August 2021}
+      \resumeItemListStart
+        \resumeItem{Grew list of personally supported clients from \$5M ARR to \$20M ARR}
+        \resumeItem{Created on-boarding documentation and worked with new hires, decreasing ramp up time from 8 months to 4 months}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Wireless Audit Intern}{February 2020 - May 2020}
+      \resumeItemListStart
+        \resumeItem{Expanded and maintained fleet of 7000+ Cisco access points servicing 26,000+ students}
+        \resumeItem{Created documentation of network architecture of Georgia Tech’s LAWN network}
+        \resumeItem{Wrote process and on-boarding documentation for deployment and troubleshooting of access points}
+      \resumeItemListEnd
+      
+    \resumePromoSubheading
+      {Residential Technical Adviser}{August 2018 - February 2020}
+      \resumeItemListStart
+        \resumeItem{Maintained Georgia Tech’s wired and wireless network infrastructure for 15,000+ connected clients}
+        \resumeItem{Supported networking equipment servicing 48 residence halls}
+        \resumeItem{Provided tier 1 support for personal devices of 8,000+ on-campus housing residents}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Golang, MATLAB} \\
+     \textbf{Build Tools}{: Jenkins, GitHub Actions, Tekton, Terraform} \\
+     \textbf{Platforms}{: MacOS, Ubuntu, Docker, Kubernetes, Orka} 
+    }}
+  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Bachelor of Science, Aerospace Engineering}{}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------RESEARCH-----------
+\section{Research}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Scaling Analysis of TLSLES Code}}{June - December 2019}
+          \resumeItemListStart
+            \resumeItem{Explored and documented scaling of TLSLES code on a Taylor-Green Vortex and worked to parallelize the code}
+            \resumeItem{Analyzed metrics to determine areas of code with the highest
+probability of meaningful optimization}
+          \resumeItemListEnd
+         
+    \resumeSubHeadingListEnd
+    
+    
+%-------------------------------------------
+\end{document}
