@@ -18,7 +18,8 @@ I am open to a new position in the DevOps/SRE space. You can find my resume [her
 
 Projects I'm currently working on: 
 * Send a v8 boulder and climb 5.13 (in the gym)
-* Train to run a marathon 
+* Learn to trad climb better
+* Train to run a marathon (preferably sub 3:30)
 * Training my dog for better recall
 
 Projects on the horizon: 
