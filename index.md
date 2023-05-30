@@ -24,5 +24,3 @@ Projects I'm currently working on:
 Projects on the horizon: 
 * Go climbing at Red River Gorge 
 * Crew for the Everglades Challenge
-
-See things I've bothered to write about on my [blog](blog/first-blog.md)!
