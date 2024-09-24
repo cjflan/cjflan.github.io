@@ -49,170 +49,173 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+  % Ensure that generate pdf is machine readable/ATS parsable
+  \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
+  %-------------------------
+  % Custom commands
+  \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
+      {#1 \vspace{-2pt}}
+    }
+    }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
+    \newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+      \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+      \end{tabular*}\vspace{-7pt}
+      }
 
-\newcommand{\resumePromoSubheading}[2]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2}
-    \end{tabular*}\vspace{-7pt}
-}
+      \newcommand{\resumePromoSubheading}[2]{
+      \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textit{\small#1} & \textit{\small #2}
+        \end{tabular*}\vspace{-7pt}
+        }
 
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
+        \newcommand{\resumeSubSubheading}[2]{
+        \item
+          \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+            \textit{\small#1} & \textit{\small #2} \\
+          \end{tabular*}\vspace{-7pt}
+          }
 
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
+          \newcommand{\resumeProjectHeading}[2]{
+          \item
+            \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+              \small#1 & #2 \\
+            \end{tabular*}\vspace{-7pt}
+            }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+            \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+            \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+            \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+            \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+            \newcommand{\resumeItemListStart}{\begin{itemize}}
+            \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
-
-%----------HEADING----------
+            %-------------------------------------------
+            %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{center}
-    \textbf{\Huge \scshape Connor Flanagan} \\ \vspace{1pt}
-    \small 920.284.7511 $|$ \href{mailto:connorjf@gatech.edu}{\underline{connorjf@gatech.edu}} $|$ 
-    \href{https://linkedin.com/in/cflanagan98}{\underline{linkedin.com/in/cflanagan98}} $|$ Milwaukee, WI (Willing to Relocate)
-\end{center}
+            \begin{document}
 
-%-----------OBJECTIVE-----------
-\section{Objective}
-
-\begin{adjustwidth}{.15in}{0pt}
-
-I am seeking a software engineering role as a DevOps or Backend Engineer.
-I have extensive experience building continuous integration pipelines using 
-  \textbf{Jenkins} and \textbf{GitHub Actions} as well as building \textbf{CLI tools} and 
-\textbf{RESTful APIs} in Golang. I have a passion for automation and in both my 
-personal and professional life. 
-
-\end{adjustwidth}
+            %----------HEADING----------
 
 
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
+            \begin{center}
+              \textbf{\Huge \scshape Connor Flanagan} \\ \vspace{1pt}
+              \small 920.284.7511 $|$ \href{mailto:connorjf@gatech.edu}{\underline{connorjf@gatech.edu}} $|$ 
+              \href{https://linkedin.com/in/cflanagan98}{\underline{linkedin.com/in/cflanagan98}}
+            \end{center}
 
-    \resumeSubheading
-    {MacStadium}{Atlanta, GA (Remote)}
-    {Senior Sales Engineer}{September 2022 - Present}
-      \resumeItemListStart
-        \resumeItem{Developed \textbf{Golang} CLI tools to automate common QC tasks and Orka cluster managment}
-        \resumeItem{Built and maintained \textbf{Jenkins} based CI, nightly, and release pipelines for testing, building, and distributing Google Tensorflow MacOS wheels to PyPi}
-        \resumeItem{Shipped a \textbf{Python} framework for automated SOC2 and ISO27001 audit conformance gathering}
-        \resumeItem{Served as Sales Engineering team lead, coordinating efforts between sales, operations, product and development}
-      \resumeItemListEnd
-      
-    \resumePromoSubheading
-      {Sales Engineer}{August 2021 - September 2022}
-      \resumeItemListStart
-        \resumeItem{Drove \$150k in professional services revenue through partnerships with existing customers}
-        \resumeItem{Launched a \textbf{Golang SDK} for Orka and implemented work flow to automate configuration and testing of PoC environments saving 20 minutes per environment}
-        \resumeItem{Created \textbf{Docker} work flow allowing customers to trial the Orka Jenkins plugin in under 5 minutes}
-        \resumeItem{Grew the Sales Engineering team from two to five members by identifying underserved areas in the customer journey}
-      \resumeItemListEnd
-      
-    \resumePromoSubheading
-      {Technical Account Manager}{October 2020 - August 2021}
-      \resumeItemListStart
-        \resumeItem{Grew list of personally supported clients from \$5M ARR to \$20M ARR}
-        \resumeItem{Decreased ramp up time from 8 months to 4 months by creaing on-boarding documentation and actively trained  new hires}
-      \resumeItemListEnd
-    
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Wireless Audit Intern}{February 2020 - May 2020}
-      \resumeItemListStart
-        \resumeItem{Expanded and maintained fleet of 7000+ Cisco access points servicing 26,000+ students}
-        \resumeItem{Created documentation of network architecture of Georgia Tech’s LAWN network}
-        \resumeItem{Wrote process and on-boarding documentation for deployment and troubleshooting of access points}
-      \resumeItemListEnd
-      
-    \resumePromoSubheading
-      {Residential Technical Adviser}{August 2018 - February 2020}
-      \resumeItemListStart
-        \resumeItem{Maintained Georgia Tech’s wired and wireless network infrastructure for 15,000+ connected clients}
-        \resumeItem{Supported networking equipment servicing 48 residence halls}
-        \resumeItem{Provided tier 1 support for personal devices of 8,000+ on-campus housing residents}
-      \resumeItemListEnd
-      
-  \resumeSubHeadingListEnd
+            %-----------OBJECTIVE-----------
+            \section{Objective}
+
+            \begin{adjustwidth}{.15in}{0pt}
+
+              I am seeking a software engineering roles in the Developer Experience space.
+              I aim to analyze existing processes and workflows to find ways to reduce or 
+              eliminate repetitive tasks allowing others to spend more time solving novel problems
+              instead of toiling with the same tasks daily. I have a passion for automation and am
+              excited to find creative solutions to problems.
+
+            \end{adjustwidth}
 
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Golang, MATLAB} \\
-     \textbf{Build Tools}{: Jenkins, GitHub Actions, Tekton, Terraform, Prometheous} \\
-     \textbf{Platforms}{: MacOS, Ubuntu, Docker, Kubernetes, Orka} 
-    }}
-  \end{itemize}
+            %-----------EXPERIENCE-----------
+            \section{Experience}
+            \resumeSubHeadingListStart
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Bachelor of Science, Aerospace Engineering}{}
+            \resumeSubheading
+            {MacStadium}{Atlanta, GA (Remote)}
+            {Senior Sales Engineer}{September 2022 - Present}
+            \resumeItemListStart
+            \resumeItem{Developed \textbf{Golang} CLI tools to automate common QC tasks and Orka cluster management}
+            \resumeItem{Built and maintained \textbf{Jenkins} based CI, nightly, and release pipelines for testing, building, and distributing Google Tensorflow MacOS wheels to PyPi}
+            \resumeItem{Shipped a \textbf{Python} framework for automated SOC2 and ISO27001 audit conformance gathering}
+            \resumeItem{Served as Sales Engineering lead, coordinating efforts between 50+ team members across sales, operations, product and development}
+            \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+            \resumePromoSubheading
+            {Sales Engineer}{August 2021 - September 2022}
+            \resumeItemListStart
+            \resumeItem{Drove \$150k in professional services revenue through partnerships with existing customers}
+            \resumeItem{Launched a \textbf{Golang SDK} for Orka and implemented work flow to automate configuration and testing of PoC environments saving 20 minutes per environment}
+            \resumeItem{Created \textbf{Docker} work flow allowing customers to trial the Orka Jenkins plugin in under 5 minutes}
+            \resumeItem{Grew the Sales Engineering team from two to five members by identifying underserved areas in the customer journey}
+            \resumeItemListEnd
+
+            \resumePromoSubheading
+            {Technical Account Manager}{October 2020 - August 2021}
+            \resumeItemListStart
+            \resumeItem{Grew list of personally supported clients from \$5M ARR to \$20M ARR}
+            \resumeItem{Decreased ramp up time from 8 months to 4 months by creating on-boarding documentation and actively trained  new hires}
+            \resumeItemListEnd
+
+            \resumeSubheading
+            {Georgia Institute of Technology}{Atlanta, GA}
+            {Wireless Audit Intern}{February 2020 - May 2020}
+            \resumeItemListStart
+            \resumeItem{Expanded and maintained fleet of 7000+ Cisco access points servicing 26,000+ students}
+            \resumeItem{Created documentation of network architecture of Georgia Tech’s LAWN network}
+            \resumeItem{Wrote process and on-boarding documentation for deployment and troubleshooting of access points}
+            \resumeItemListEnd
+
+            \resumeSubHeadingListEnd
+
+            %-----------PROJECTS-----------
+            \section{Projects}
+
+            \resumeSubHeadingListStart
+            \resumeProjectHeading
+            {\textbf{Spotify Scrobbler}}{}
+            \resumeItemListStart
+            \resumeItem{A \textbf{Golang} applicaiton to track what songs are streamed from Spotify similar to last.fm}
+            \resumeItem{Songs streamed are written to a \textbf{MySQL} database along with artist, album and stream time details}
+            \resumeItemListEnd
+
+            \resumeSubHeadingListEnd
+
+            %-----------TECHNICAL SKILLS-----------
+            \section{Technical Skills}
+            \begin{itemize}[leftmargin=0.15in, label={}]
+              \small{\item{
+                  \textbf{Languages}{: Python, Golang, MATLAB} \\
+                  \textbf{Build Tools}{: Jenkins, GitHub Actions, Tekton, Terraform, Prometheus} \\
+                  \textbf{Platforms}{: MacOS, Ubuntu, Docker, Kubernetes, Orka} 
+                }}
+            \end{itemize}
+
+            %-----------EDUCATION-----------
+            \section{Education}
+            \resumeSubHeadingListStart
+            \resumeSubheading
+            {Georgia Institute of Technology}{Atlanta, GA}
+            {Bachelor of Science, Aerospace Engineering}{}
+
+            \resumeSubHeadingListEnd
 
 
-%-----------RESEARCH-----------
-\section{Research}
+            %-----------RESEARCH-----------
+            \section{Research}
 
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Scaling Analysis of TLSLES Code}}{June - December 2019}
-          \resumeItemListStart
+            \resumeSubHeadingListStart
+            \resumeProjectHeading
+            {\textbf{Scaling Analysis of TLSLES Code}}{June - December 2019}
+            \resumeItemListStart
             \resumeItem{Explored and documented scaling of TLSLES code on a Taylor-Green Vortex and worked to parallelize the code}
-            \resumeItem{Analyzed metrics to determine areas of code with the highest
-probability of meaningful optimization}
-          \resumeItemListEnd
-         
-    \resumeSubHeadingListEnd
-    
-    
-%-------------------------------------------
-\end{document}
+            \resumeItem{Analyzed metrics to determine areas of code with the highest probability of meaningful optimization}
+            \resumeItemListEnd
+
+            \resumeSubHeadingListEnd
+
+
+            %-------------------------------------------
+          \end{document}
